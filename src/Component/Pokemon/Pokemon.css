@@ -1,0 +1,12 @@
+.pokemon{
+    flex-basis: 30%;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.pokemon-image{
+    height: 150px;
+    max-height: 100%;
+}
