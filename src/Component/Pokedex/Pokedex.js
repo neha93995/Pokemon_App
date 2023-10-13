@@ -1,3 +1,4 @@
+import PokemonList from "../PokemonList/PokemonList";
 import Search from "../Search/Search";
 import './pokedex.css';
 
@@ -7,6 +8,7 @@ function Pokedex(){
         <div className='pokedex-wrapper' >
             <h1 className='pokedex-heading'>Pokedex</h1>
             <Search />
+            <PokemonList/>
         </div>
     )
 }
