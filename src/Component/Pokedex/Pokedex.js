@@ -13,7 +13,6 @@ function Pokedex(){
 
             <h1 className='pokedex-heading'>Pokedex</h1>
             <Search updateSearchTerm={setSearchTerm} />
-            <div>{searchTerm}</div>
             {
                 (!searchTerm)? <PokemonList/>:<PokemonDetails key={searchTerm} pokemonName={searchTerm}/>
             }
