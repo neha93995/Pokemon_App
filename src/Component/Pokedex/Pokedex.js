@@ -10,6 +10,7 @@ function Pokedex(){
     
     return(
         <div className='pokedex-wrapper' >
+
             <h1 className='pokedex-heading'>Pokedex</h1>
             <Search updateSearchTerm={setSearchTerm} />
             <div>{searchTerm}</div>
