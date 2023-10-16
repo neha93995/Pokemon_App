@@ -3,9 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    margin-top: 1rem;
 }
 
 .pokedex-heading{
     letter-spacing: 3px;
+    color: rgb(18, 137, 137);
+    font-weight: 800;
 }

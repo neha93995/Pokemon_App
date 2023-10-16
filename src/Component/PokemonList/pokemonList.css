@@ -1,5 +1,5 @@
 .pokemon-list-wrapper{
-    width: 500px;
+    width: 90vw;
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
@@ -19,8 +19,25 @@
 
 }
 
+.controls{
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 50%;
+}
+
 .controls button
 {
-    padding: 8px 20px;
+    font-size: 30px;
+    border: none;
+    outline: none;
     margin-left: 1rem;
+    color: rgb(18, 137, 137);
+    background-color: transparent;
+}
+
+.controls button:hover{
+    transform: scale(1.2);
+    transition: all .1s ease-in-out;
 }
