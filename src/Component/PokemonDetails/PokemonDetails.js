@@ -13,7 +13,7 @@ function PokemonDetails({pokemonName}){
         <>
         {
 
-         !pokemonName?<div className="pokemon-back"><Link to={'/'}><MdOutlineArrowBackIosNew/></Link></div>:""
+         !pokemonName?<div className="pokemon-back"><Link to={'/Pokemon_App'}><MdOutlineArrowBackIosNew/></Link></div>:""
         }
         {pokemon.name?
 
